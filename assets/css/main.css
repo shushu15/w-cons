@@ -449,6 +449,27 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
   text-align: justify;
 }
 
+.circle-section {
+	height: 512px;
+}
+
+.circle-puzzle {
+	height: 512px;
+	width: 515px;
+	margin: 0 auto;
+    background-position: center;
+	background: url(../images/circle-NO-W-Cons.png) no-repeat; 	
+}
+
+.circle-puzzle-hidden {
+	background: url(../images/circle-W-Cons.png) no-repeat -9999px -9999px;
+}
+
+.circle-puzzle:hover { 
+    background-position: center;
+	background: url(../images/circle-W-Cons.png) no-repeat; 
+}
+
 .circle-container {
 	position: relative;
 	width: 24em;
